@@ -2,7 +2,9 @@
     <img src="https://cdn.prod.website-files.com/67769f7bf6f3ca67f529bf9a/6777ce8b9b7bafeef0c905bf_Periphery-Logo-White-RGB.svg" alt="Periphery Security logo" title="Periphery Security" align="right" height="45" />
 </a>
 
-# PRivy – A legendary journey to secure your repositories!
+# PRivy
+
+> A legendary journey to secure your repositories!
 
 :star: Star us on GitHub — it motivates us a lot!
 
