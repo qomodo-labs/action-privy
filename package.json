@@ -1,7 +1,7 @@
 {
   "name": "action-privy",
   "description": "GitHub Action to report Trivy scan results as GitHub PR comments",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": "stemarks",
   "type": "module",
   "private": true,
