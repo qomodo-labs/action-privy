@@ -1,0 +1,10 @@
+{{! Default Template shows as a table of vulnerabilities}}
+{{#each Results}}
+{{#if Vulnerabilities}}
+| Package | CVE | Severity | Installed Version | Fixed Version | References |
+| --- | ---| --- | --- | --- | --- |
+{{#each Vulnerabilities}}
+| {{PkgName}} | {{VulnerabilityID}} | {{Severity}} | {{InstalledVersion}} | {{#if FixedVersion}}{{FixedVersion}}{{/if}} | {{References}} |
+{{/each}}
+{{/if}}
+{{/each}}

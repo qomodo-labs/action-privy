@@ -1,0 +1,22 @@
+name: 'Trivy PR Comment'
+description: 'Creates comment on Github PR from Trivy scan results'
+author: 'Periphery Security'
+
+inputs:
+  token:
+    description: 'GitHub token'
+    required: true
+  trivy-results:
+    description: 'Filename containing Trivy scan results, in JSON format'
+    required: true
+  template:
+    description: 'Optional handlebars template to format the comment.'
+    required: false
+  dry-run:
+    description: 'Perform a dry run, doesnt actually create issues or labels'
+    required: false
+    default: 'false'
+
+runs:
+  using: 'node20' # Or the node version you are using
+  main: 'dist/index.js'
